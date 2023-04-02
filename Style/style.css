@@ -1,0 +1,33 @@
+.links-menu,.title-home {
+    text-decoration: none;
+    color: inherit;
+    cursor: text;
+    font-weight: bold;
+    font-size: 25PX;
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-home,.links-menu:hover{
+    color: whitesmoke;
+}
+
+#lista, li{
+    list-style: none;
+    display: inline;
+}
+
+body{
+    text-align: center;
+    background: #b92b27;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #1565C0, #b92b27);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    backdrop-filter: blur(10px);
+}
+
+.container text-center{
+    padding: 800px;
+}
